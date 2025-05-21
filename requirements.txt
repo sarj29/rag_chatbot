@@ -1,0 +1,7 @@
+langchain
+sentence-transformers
+faiss-cpu
+PyPDF2
+gradio
+chromadb
+google-generativeai

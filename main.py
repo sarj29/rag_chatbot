@@ -51,7 +51,7 @@ def process_pdf(file_obj):
 
 def ask_question(question):
     if not retrieval_chain:
-        return "⚠️ RAG pipeline not set up. Please process a PDF first."
+        return "RAG pipeline not set up. Please process a PDF first."
     result = retrieval_chain.invoke({"input": question})
     return result.get("answer", "No answer found.")
 
